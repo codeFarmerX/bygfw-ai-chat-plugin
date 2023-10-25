@@ -5,7 +5,7 @@
 
     <description><![CDATA[
     碧桂园服务AI chat插件，快来体验一下吧。<br>
-      <em>碧桂园服务AI机器人，快来体验一下吧</em>
+      <em>基于IntelliJ IDEA开发的bgyfw AI chat 命令生成插件，基于开源大模型实现AI对话，代码解释等功能</em>
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
