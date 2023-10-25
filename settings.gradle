@@ -1,0 +1,4 @@
+rootProject.name = 'bygfw-ai-chat-plugin'
+include 'src:main:untitled'
+findProject(':src:main:untitled')?.name = 'untitled'
+

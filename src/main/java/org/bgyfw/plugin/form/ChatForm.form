@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.bgyfw.plugin.form.ChatForm">
+  <grid id="27dc6" binding="panel1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="22" y="45" width="523" height="312"/>
+    </constraints>
+    <properties/>
+    <border type="line"/>
+    <children>
+      <component id="cc2db" class="javax.swing.JTextArea" binding="question">
+        <constraints/>
+        <properties>
+          <lineWrap value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5e3f" class="javax.swing.JButton" binding="submit">
+        <constraints/>
+        <properties>
+          <text value="确认"/>
+        </properties>
+      </component>
+      <component id="70450" class="javax.swing.JTextArea" binding="answer">
+        <constraints/>
+        <properties>
+          <lineWrap value="true"/>
+        </properties>
+      </component>
+      <scrollpane id="50dc7" binding="questionScroll">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <scrollpane id="6383d" binding="answerScroll">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,41 @@
+<idea-plugin>
+    <id>org.bgyfw.plugin.bygfw-ai-chat-plugin</id>
+    <name>Bgyfw AI Chat</name>
+    <vendor email="bgy@yourcompany.com" url="http://www.bgy.com">bgyfw</vendor>
+
+    <description><![CDATA[
+    碧桂园服务AI chat插件，快来体验一下吧。<br>
+      <em>碧桂园服务AI机器人，快来体验一下吧</em>
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <toolWindow id="Bgyfw AI Chat"
+                    secondary="true"
+                    icon="AllIcons.Toolwindows.WebToolWindow"
+                    anchor="right"
+                    factoryClass="org.bgyfw.plugin.AiChatToolWindowFactory"/>
+    </extensions>
+
+    <actions>
+        <group id="bgyfwAiChatCodeGroup" text="Bgyfw AI" description="Bgyfw AI Chat" popup="true">
+            <add-to-group group-id="CodeMenu" anchor="last"/>
+        </group>
+        <group id="bgyfwAiChatEditorGroup" text="Bgyfw AI" description="Bgyfw AI Chat" popup="true">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </group>
+        <action id="ExplainCodeAction" class="org.bgyfw.plugin.action.ExplainCodeAction" text="Code Explain" description="Code explanation">
+            <add-to-group group-id="bgyfwAiChatCodeGroup"  anchor="after" relative-to-action="AIChat"/>
+            <add-to-group group-id="bgyfwAiChatEditorGroup"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt G"/>
+        </action>
+        <action id="AIChat" class="org.bgyfw.plugin.action.AIChatAction" text="AI Chat" description="AI Chat">
+            <add-to-group group-id="bgyfwAiChatCodeGroup" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt F"/>
+        </action>
+    </actions>
+</idea-plugin>
