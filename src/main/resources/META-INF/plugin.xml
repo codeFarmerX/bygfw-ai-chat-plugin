@@ -4,6 +4,7 @@
     <vendor email="bgy@yourcompany.com" url="http://www.bgy.com">bgyfw</vendor>
 
     <description><![CDATA[
+        based on the bgyfw AI chat command generation plug-in developed by IntelliJ IDEA, implements AI dialogue, code explanation and other functions based on the open source large model.<br>
     碧桂园服务AI chat插件，快来体验一下吧。<br>
       <em>基于IntelliJ IDEA开发的bgyfw AI chat 命令生成插件，基于开源大模型实现AI对话，代码解释等功能</em>
     ]]></description>
