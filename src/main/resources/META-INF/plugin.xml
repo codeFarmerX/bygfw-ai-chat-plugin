@@ -4,9 +4,11 @@
     <vendor email="bgy@yourcompany.com" url="http://www.bgy.com">bgyfw</vendor>
 
     <description><![CDATA[
-        based on the bgyfw AI chat command generation plug-in developed by IntelliJ IDEA, implements AI dialogue, code explanation and other functions based on the open source large model.<br>
-    碧桂园服务AI chat插件，快来体验一下吧。<br>
-      <em>基于IntelliJ IDEA开发的bgyfw AI chat 命令生成插件，基于开源大模型实现AI对话，代码解释等功能</em>
+        <h1>Bgyfw AI Chat</h1>
+        Bgyfw AI Chat is an AI-assisted chat and code interpretation tool written in Java. It can help you achieve AI-based conversations and code understanding functions.
+        <br>
+        <h1>Chinese Description</h1>
+        Bgyfw AI Chat是一个基于Java代码的AI辅助工具，可以协助实现AI聊天和代码解读功能。通过使用该工具，用户可以更轻松地编写和运行自己的AI应用程序，同时也可以更全面地了解AI技术的工作原理。
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
